@@ -4,34 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio Ricardo Silva</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: #000000;
-      color: white;
-      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: #f2f2f2;
+      font-family: 'Poppins', sans-serif;
       padding: 20px;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
       line-height: 1.6;
     }
     header, footer {
       text-align: center;
-      margin-bottom: 30px;
+      margin-bottom: 40px;
     }
-    h1, h2, h3 {   
-    color: red;
-    margin-top: 20px;
-      
+    header h1 {
+      color: #e50914;
+      font-size: 2.5rem;
+      margin-bottom: 5px;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #cccccc;
+    }
+    h2 {
+      color: #e50914;
+      margin-top: 30px;
+      border-bottom: 2px solid #e50914;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    h3 {
+      color: #ffcc00;
+      margin-top: 15px;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+      margin-bottom: 20px;
     }
     ul {
-        
       list-style: square;
       margin-left: 20px;
     }
     .btn {
       display: inline-block;
-      background: white;
-      color: red;
+      background: #e50914;
+      color: white;
       padding: 10px 15px;
       border-radius: 8px;
       text-decoration: none;
@@ -40,13 +62,21 @@
       transition: 0.3s;
     }
     .btn:hover {
-      background: yellow;
+      background: #ffcc00;
       color: black;
     }
     .links a {
-      color: yellow;
+      color: #ffcc00;
+      text-decoration: none;
+      font-weight: 500;
+      margin-right: 15px;
+    }
+    .links a:hover {
       text-decoration: underline;
-      margin-right: 10px;
+    }
+    footer {
+      margin-top: 40px;
+      color: #777;
     }
   </style>
 </head>
@@ -57,48 +87,57 @@
   </header>
 
   <main>
-    <h2>Quem sou eu?</h2>
-    <p>Comecei meus estudos em 2020 com aulas no YouTube. Passei pela empresa <strong>RL System</strong>, ingressei na <strong>Faculdade Anhanguera</strong> e depois na <strong>Cruzeiro do Sul</strong>. Após julho de 2026, estarei formado e pronto para novos desafios.</p>
+    <section class="card">
+      <h2>Quem sou eu?</h2>
+      <p>Comecei meus estudos em 2020 com aulas no YouTube. Passei pela empresa <strong>RL System</strong>, ingressei na <strong>Faculdade Anhanguera</strong> e depois na <strong>Cruzeiro do Sul</strong>. Após julho de 2026, estarei formado e pronto para novos desafios.</p>
+    </section>
 
-    <h2>O que eu faço</h2>
-    <h3>Desenvolvimento Front-end e Back-end</h3>
-    <ul>
-      <li>Criação de sites com HTML e CSS</li>
-      <li>Estudando PHP para integração de funcionalidades</li>
-      <li>Scripts em JavaScript e PHP</li>
-    </ul>
+    <section class="card">
+      <h2>O que eu faço</h2>
+      <h3>Desenvolvimento Front-end e Back-end</h3>
+      <ul>
+        <li>Criação de sites com HTML e CSS</li>
+        <li>Estudando PHP para integração de funcionalidades</li>
+        <li>Scripts em JavaScript e PHP</li>
+      </ul>
 
-    <h3>Python</h3>
-    <ul>
-      <li>Ciência de Dados e Machine Learning</li>
-      <li>Automação de processos</li>
-      <li>Análise de dados</li>
-      <li>Desenvolvimento de aplicativos e jogos</li>
-      <li>Ferramentas: Excel e PowerPoint (nível básico)</li>
-      <li>Soft Skills: trabalho em equipe, criatividade, autonomia</li>
-    </ul>
-     <h3>Outras habilidades</h3>
-    <p>
-        - Uso de Inteligência Artificial em projetos<br>
-        - Banco de dados MySQL<br>
-        - Figma<br>
-    </p>
+      <h3>Python</h3>
+      <ul>
+        <li>Ciência de Dados e Machine Learning</li>
+        <li>Automação de processos</li>
+        <li>Análise de dados</li>
+        <li>Desenvolvimento de aplicativos e jogos</li>
+        <li>Ferramentas: Excel e PowerPoint (nível básico)</li>
+        <li>Soft Skills: trabalho em equipe, criatividade, autonomia</li>
+      </ul>
 
+      <h3>Outras habilidades</h3>
+      <p>- Uso de Inteligência Artificial em projetos<br>
+         - Banco de dados MySQL<br>
+         - Figma</p>
+    </section>
 
-    <h2>Projetos</h2>
-    <h3><a href="https://www.figma.com/proto/7dLh5Iq7kBrWonHIDrZA3u/projeto-de-transportadora" target="_blank">Projeto Transportadora (Figma)</a></h3>
+    <section class="card">
+      <h2>Projetos</h2>
+      <h3><a href="https://www.figma.com/proto/7dLh5Iq7kBrWonHIDrZA3u/projeto-de-transportadora" target="_blank">Projeto Transportadora (Figma)</a></h3>
+    </section>
 
-    <h2>Currículos</h2>
-    <a href="resume2026.pdf" download class="btn">Baixar CV (Inglês)</a>
-    <a href="curriculo2025.pdf" download class="btn">Baixar CV (Português)</a>
+    <section class="card">
+      <h2>Currículos</h2>
+      <br>
+      <a href="resume2026.pdf" download class="btn">Baixar CV (Inglês)</a><br>
+      <a href="curriculo2025.pdf" download class="btn">Baixar CV (Português)</a>
+    </section>
 
-    <h2>Contato</h2>
-    <div class="links">
-      <a href="https://www.linkedin.com/in/ricardo-silva-z/" target="_blank">LinkedIn</a>
-    </div>
+    <section class="card">
+      <h2>Contato</h2>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/ricardo-silva-z/" target="_blank">LinkedIn</a>
+      </div>
+    </section>
   </main>
 
- <footer>
+  <footer>
     <p>© 2025 Ricardo Silva</p>
   </footer>
 </body>
