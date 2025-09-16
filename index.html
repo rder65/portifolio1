@@ -1,77 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Ricardo Silva</title>
-    <style>
-        body {
-            background-color: #131f8f;
-            color: white;
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-        h1, h2, h3 {
-            margin-top: 20px;
-        }
-        p {
-            line-height: 1.6;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Ricardo Silva</title>
+  <style>
+    body {
+      background-color: #000000;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.6;
+    }
+    header, footer {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    h1, h2, h3 {   
+    color: red;
+    margin-top: 20px;
+      
+    }
+    ul {
+        
+      list-style: square;
+      margin-left: 20px;
+    }
+    .btn {
+      display: inline-block;
+      background: white;
+      color: red;
+      padding: 10px 15px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 5px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: yellow;
+      color: black;
+    }
+    .links a {
+      color: yellow;
+      text-decoration: underline;
+      margin-right: 10px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Bem-vindo ao meu portfólio!</h1>
+  <header>
+    <h1>Ricardo Silva</h1>
+    <p>Desenvolvedor em formação • Back-end | Front-end | Python</p>
+  </header>
+
+  <main>
     <h2>Quem sou eu?</h2>
-    <p>
-        Me chamo <strong>Ricardo Silva</strong>. Comecei meus estudos em 2020 com o básico através de aulas no YouTube.
-        Depois disso, passei pela empresa <strong>RL System</strong>, ingressei na <strong>Faculdade Anhanguera</strong> e, em seguida, na <strong>Cruzeiro do Sul</strong>.
-        Após julho de 2026, estarei oficialmente formado e pronto para novos desafios.
-    </p>
+    <p>Comecei meus estudos em 2020 com aulas no YouTube. Passei pela empresa <strong>RL System</strong>, ingressei na <strong>Faculdade Anhanguera</strong> e depois na <strong>Cruzeiro do Sul</strong>. Após julho de 2026, estarei formado e pronto para novos desafios.</p>
 
     <h2>O que eu faço</h2>
     <h3>Desenvolvimento Front-end e Back-end</h3>
-    <p>
-        - Criação de sites com HTML e CSS <br>
-        - Estudando PHP para integração de funcionalidades<br>
-        - Scripts em JavaScript e PHP
-    </p>
+    <ul>
+      <li>Criação de sites com HTML e CSS</li>
+      <li>Estudando PHP para integração de funcionalidades</li>
+      <li>Scripts em JavaScript e PHP</li>
+    </ul>
 
     <h3>Python</h3>
-    <p>
-        - Ciência de Dados e Machine Learning<br>
-        - Automação de processos<br>
-        - Análise de dados<br>
-        - Desenvolvimento de aplicativos<br>
-        - Desenvolvimento de jogos (início após 06/2025) <br>
-        - Ferramentas: Microsoft Excel e PowerPoint (nível básico) <br>
-        - Soft Skills: Trabalho em equipe, criatividade, autonomia, atenção aos detalhes, resolução de problemas <br>
-        - Outros: Aprendizado rápido, adaptabilidade
-    </p>
-
-    <h3>Outras habilidades</h3>
+    <ul>
+      <li>Ciência de Dados e Machine Learning</li>
+      <li>Automação de processos</li>
+      <li>Análise de dados</li>
+      <li>Desenvolvimento de aplicativos e jogos</li>
+      <li>Ferramentas: Excel e PowerPoint (nível básico)</li>
+      <li>Soft Skills: trabalho em equipe, criatividade, autonomia</li>
+    </ul>
+     <h3>Outras habilidades</h3>
     <p>
         - Uso de Inteligência Artificial em projetos<br>
         - Banco de dados MySQL<br>
+        - Figma<br>
     </p>
 
-    <h2>Projetos realizados</h2>
-    <p>(Aqui você pode adicionar projetos com links, prints ou descrições resumidas.)</p>
-    <a href="resume2026.pdf" download style="background-color: white; color: red; padding: 10px; text-decoration: none; border-radius: 5px;">
-    Baixar meu currículo ingles</a>
-    <a href="curriculo2025.pdf" download style="background-color: white; color: red; padding: 10px; text-decoration: none; border-radius: 5px;">
-    Baixar meu currículo pt-BR</a><br>
-   <br><br>
-  
 
+    <h2>Projetos</h2>
+    <h3><a href="https://www.figma.com/proto/7dLh5Iq7kBrWonHIDrZA3u/projeto-de-transportadora" target="_blank">Projeto Transportadora (Figma)</a></h3>
 
-    <a href="https://www.linkedin.com/in/ricardo-silva-z/" target="_blank" style="color: yellow; text-decoration: underline;">
-    Meu LinkedIn
-  </a><br>
+    <h2>Currículos</h2>
+    <a href="resume2026.pdf" download class="btn">Baixar CV (Inglês)</a>
+    <a href="curriculo2025.pdf" download class="btn">Baixar CV (Português)</a>
 
-  <a href="https://www.figma.com/proto/7dLh5Iq7kBrWonHIDrZA3u/projeto-de-transportadora?node-id=0-1&t=37dPLeZ6bidCiHuF-1"
-     target="_blank" style="color: yellow; text-decoration: underline;">
-    Meu projeto
-  </a>
+    <h2>Contato</h2>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/ricardo-silva-z/" target="_blank">LinkedIn</a>
+    </div>
+  </main>
+
  <footer>
     <p>© 2025 Ricardo Silva</p>
   </footer>
